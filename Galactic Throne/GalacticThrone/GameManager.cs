@@ -8,27 +8,31 @@ public static class GameManager
 
     private static void Main()
     {
-
-        ImagePrinter.Title();
-        Console.WriteLine("Welcome to the game.");
-        PrintBlankLine();
-        PlayerEmpire.PrintResources();
-        
-        
         while (true)
         {
+            ImagePrinter.Title();
+
+            Console.WriteLine("Welcome to the game.");
+
+            PrintBlankLine();
+            PlayerEmpire.PrintResources();
+            
             string? input = Console.ReadLine();
 
             if (input!.Equals("end", StringComparison.OrdinalIgnoreCase))
             {
                 break;
             }
+            else
+            {
+                Console.Clear();
+            }
         }
     }
 
     public static void PrintBlankLine()
     {
-        Console.WriteLine(".");
+        Console.WriteLine(" ");
     }
 }
                                                                                         

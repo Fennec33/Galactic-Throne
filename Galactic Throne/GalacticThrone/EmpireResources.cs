@@ -2,65 +2,35 @@
 
 public class EmpireResources
 {
-    private int _credits;
-    private int _population;
-    private int _military;
-    private int _science;
+    public int Credits { get; private set; }
 
-    public int Credits
-    {
-        get => _credits;
-        set
-        {
-            if (value is > 0 and < 100)
-                _credits = value;
-        }
-    }
-    
-    public int Population
-    {
-        get => _population;
-        set
-        {
-            if (value is > 0 and < 100)
-                _population = value;
-        }
-    }
-    
-    public int Military
-    {
-        get => _military;
-        set
-        {
-            if (value is > 0 and < 100)
-                _military = value;
-        }
-    }
-    
-    public int Science
-    {
-        get => _science;
-        set
-        {
-            if (value is > 0 and < 100)
-                _science = value;
-        }
-    }
+    public int Population { get; private set;}
+
+    public int Military { get; private set;}
+
+    public int Science { get; private set;}
 
     public EmpireResources()
     {
-        _credits = 50;
-        _population = 50;
-        _military = 50;
-        _science = 50;
+        Credits = 50;
+        Population = 50;
+        Military = 50;
+        Science = 50;
+    }
+
+    public void AddCredits(int n)
+    {
+        n += Credits;
+        if (n is > 0 and < 100)
+            Credits = n;
     }
 
     public void PrintResources()
     {
-        Console.WriteLine("Credits: " + _credits);
-        Console.WriteLine("Population: " + _population);
-        Console.WriteLine("Military: " + _military);
-        Console.WriteLine("Science: " + _science);
+        Console.WriteLine("Credits: " + Credits);
+        Console.WriteLine("Population: " + Population);
+        Console.WriteLine("Military: " + Military);
+        Console.WriteLine("Science: " + Science);
         GameManager.PrintBlankLine();
     }
 }
