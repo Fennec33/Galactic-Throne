@@ -3,10 +3,17 @@ using System;
 
 public static class GameManager
 {
+    private static EmpireResources _playerEmpire = new EmpireResources();
+    public static EmpireResources PlayerEmpire { get; } = _playerEmpire;
+
     private static void Main()
     {
+
         ImagePrinter.Title();
         Console.WriteLine("Welcome to the game.");
+        PrintBlankLine();
+        PlayerEmpire.PrintResources();
+        
         
         while (true)
         {
@@ -17,6 +24,11 @@ public static class GameManager
                 break;
             }
         }
+    }
+
+    public static void PrintBlankLine()
+    {
+        Console.WriteLine(".");
     }
 }
                                                                                         
