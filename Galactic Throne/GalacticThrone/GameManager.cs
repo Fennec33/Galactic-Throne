@@ -5,7 +5,8 @@ public static class GameManager
 {
     private static void Main()
     {
-        Console.WriteLine("Start");
+        ImagePrinter.Title();
+        Console.WriteLine("Welcome to the game.");
         
         while (true)
         {
@@ -18,3 +19,6 @@ public static class GameManager
         }
     }
 }
+                                                                                        
+                                                                                        
+                                                                                        
