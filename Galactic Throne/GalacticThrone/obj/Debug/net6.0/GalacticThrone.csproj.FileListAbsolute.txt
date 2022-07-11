@@ -1,0 +1,15 @@
+C:\Users\Michael\RiderProjects\Galactic-Throne\Galactic Throne\GalacticThrone\bin\Debug\net6.0\GalacticThrone.exe
+C:\Users\Michael\RiderProjects\Galactic-Throne\Galactic Throne\GalacticThrone\bin\Debug\net6.0\GalacticThrone.deps.json
+C:\Users\Michael\RiderProjects\Galactic-Throne\Galactic Throne\GalacticThrone\bin\Debug\net6.0\GalacticThrone.runtimeconfig.json
+C:\Users\Michael\RiderProjects\Galactic-Throne\Galactic Throne\GalacticThrone\bin\Debug\net6.0\GalacticThrone.dll
+C:\Users\Michael\RiderProjects\Galactic-Throne\Galactic Throne\GalacticThrone\bin\Debug\net6.0\GalacticThrone.pdb
+C:\Users\Michael\RiderProjects\Galactic-Throne\Galactic Throne\GalacticThrone\obj\Debug\net6.0\GalacticThrone.csproj.AssemblyReference.cache
+C:\Users\Michael\RiderProjects\Galactic-Throne\Galactic Throne\GalacticThrone\obj\Debug\net6.0\GalacticThrone.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michael\RiderProjects\Galactic-Throne\Galactic Throne\GalacticThrone\obj\Debug\net6.0\GalacticThrone.AssemblyInfoInputs.cache
+C:\Users\Michael\RiderProjects\Galactic-Throne\Galactic Throne\GalacticThrone\obj\Debug\net6.0\GalacticThrone.AssemblyInfo.cs
+C:\Users\Michael\RiderProjects\Galactic-Throne\Galactic Throne\GalacticThrone\obj\Debug\net6.0\GalacticThrone.csproj.CoreCompileInputs.cache
+C:\Users\Michael\RiderProjects\Galactic-Throne\Galactic Throne\GalacticThrone\obj\Debug\net6.0\GalacticThrone.dll
+C:\Users\Michael\RiderProjects\Galactic-Throne\Galactic Throne\GalacticThrone\obj\Debug\net6.0\refint\GalacticThrone.dll
+C:\Users\Michael\RiderProjects\Galactic-Throne\Galactic Throne\GalacticThrone\obj\Debug\net6.0\GalacticThrone.pdb
+C:\Users\Michael\RiderProjects\Galactic-Throne\Galactic Throne\GalacticThrone\obj\Debug\net6.0\GalacticThrone.genruntimeconfig.cache
+C:\Users\Michael\RiderProjects\Galactic-Throne\Galactic Throne\GalacticThrone\obj\Debug\net6.0\ref\GalacticThrone.dll
