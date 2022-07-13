@@ -1,16 +1,13 @@
 ﻿namespace GalacticThrone;
 
-public class EmpireResources
+public class Empire
 {
     public int Credits { get; private set; }
-
     public int Population { get; private set;}
-
     public int Military { get; private set;}
-
     public int Science { get; private set;}
 
-    public EmpireResources()
+    public Empire()
     {
         Credits = 50;
         Population = 50;
@@ -27,10 +24,10 @@ public class EmpireResources
 
     public void PrintResources()
     {
-        Console.WriteLine("Credits: " + Credits);
-        Console.WriteLine("Population: " + Population);
-        Console.WriteLine("Military: " + Military);
-        Console.WriteLine("Science: " + Science);
-        GameManager.PrintBlankLine();
+        Screen.Print("Credits: " + Credits);
+        Screen.Print("Population: " + Population);
+        Screen.Print("Military: " + Military);
+        Screen.Print("Science: " + Science);
+        Screen.PrintBlankLine();
     }
 }
